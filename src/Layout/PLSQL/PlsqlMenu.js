@@ -7,6 +7,18 @@ const PlsqlMenu = () => {
 			<div className="list-group">
 			  <h4>Menu</h4>
 			  <NavLink
+				to="/paim"
+				className="list-group-item list-group-item-action"
+			  >
+				Aim and Objective
+			  </NavLink>
+			  <NavLink
+				to="/ppretest"
+				className="list-group-item list-group-item-action"
+			  >
+				Pretest
+			  </NavLink>
+			  <NavLink
 				to="/procedure"
 				className="list-group-item list-group-item-action"
 			  >
@@ -29,6 +41,18 @@ const PlsqlMenu = () => {
 				className="list-group-item list-group-item-action"
 			  >
 			    Exceptions
+			  </NavLink>
+			  <NavLink
+				to="/pposttest"
+				className="list-group-item list-group-item-action"
+			  >
+				PostTest
+			  </NavLink>
+			  <NavLink
+				to="/pref"
+				className="list-group-item list-group-item-action"
+			  >
+				Reference and Feedback
 			  </NavLink>
 			</div>
 		  </div>

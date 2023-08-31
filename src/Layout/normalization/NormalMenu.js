@@ -6,6 +6,19 @@ const NormalMenu = () => {
 		  <div className="text-center dashboard-menu">
 			<div className="list-group">
 			  <h4>Menu</h4>
+
+			  <NavLink
+				to="/aimnobj"
+				className="list-group-item list-group-item-action"
+			  >
+				Aim And Objective
+			  </NavLink>
+			  <NavLink
+				to="/pretest"
+				className="list-group-item list-group-item-action"
+			  >
+				Pretest
+			  </NavLink>
 			  <NavLink
 				to="/1nf"
 				className="list-group-item list-group-item-action"
@@ -41,6 +54,18 @@ const NormalMenu = () => {
 				className="list-group-item list-group-item-action"
 			  >
 			    5NF
+			  </NavLink>
+			  <NavLink
+				to="/posttest"
+				className="list-group-item list-group-item-action"
+			  >
+				PostTest
+			  </NavLink>
+			  <NavLink
+				to="/refnfeed"
+				className="list-group-item list-group-item-action"
+			  >
+				Reffernce And Feedback
 			  </NavLink>
 			</div>
 		  </div>

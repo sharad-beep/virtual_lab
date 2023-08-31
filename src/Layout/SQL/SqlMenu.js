@@ -7,6 +7,19 @@ const SqlMenu = () => {
 			<div className="list-group">
 			  <h4>Menu</h4>
 			  <NavLink
+				to="/saim"
+				className="list-group-item list-group-item-action"
+			  >
+			   Aim and Objective
+			  </NavLink>
+			  <NavLink
+				to="/spretest"
+				className="list-group-item list-group-item-action"
+			  >
+			   Pretest
+			  </NavLink>
+			  
+			  <NavLink
 				to="/dml"
 				className="list-group-item list-group-item-action"
 			  >
@@ -35,6 +48,18 @@ const SqlMenu = () => {
 				className="list-group-item list-group-item-action"
 			  >
 			   SQL Joins
+			  </NavLink>
+			  <NavLink
+				to="/sposttest"
+				className="list-group-item list-group-item-action"
+			  >
+			   PostTest
+			  </NavLink>
+			  <NavLink
+				to="/sref"
+				className="list-group-item list-group-item-action"
+			  >
+			   Reference and Feedback
 			  </NavLink>
 			</div>
 		  </div>
