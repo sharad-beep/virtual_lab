@@ -3,7 +3,7 @@
 import React from 'react'
 import PlsqlMenu from './PlsqlMenu'
 import Layout from '../Layout'
-import one from "./plsql_tri_1.PNG";
+import one from "./lsql_tri_1.PNG";
 import two from "./plsql_tri_2.PNG";
 const Triggers = () => {
   return (
@@ -35,9 +35,6 @@ System Triggers: Fired in response to system-level events like database startup 
 <br></br>
 
 Syntax of a DML Trigger:
-<div>
-  <img src={one} alt="Image of plsql_tri_1" />
-</div>
 
 <br></br>
 
@@ -70,10 +67,7 @@ EXCEPTION: Handles exceptions raised during trigger execution.<br></br>
 
 
 
-Example of a DML Trigger:
-<div>
-  <img src={one} alt="Image of plsql_tri_1" />
-</div>
+Example of a DML Trigger:<br></br>
 
 
 <br></br>
@@ -82,12 +76,10 @@ Explanation:<br></br>
 
 In this example, the trigger AuditEmployeeChanges fires before an INSERT or UPDATE operation on the employees table. For each affected row (:NEW refers to the new row being inserted or updated), the trigger captures the employee_id, the action performed (INSERT or UPDATE), and the current date into an audit_log table.
 <br></br>
-<br></br>
 
 Calling a Trigger:<br></br>
 
 Triggers are automatically invoked by the database system in response to the specified triggering events. You don't directly call a trigger; rather, the trigger is triggered by the specified event.
-<br></br>
 <br></br>
 
 Advantages of Triggers:<br></br>
