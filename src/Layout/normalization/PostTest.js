@@ -5,40 +5,46 @@ import "./Norm.css"
 const Posttest = () => {
 	const [questions, setQuestions] = useState([
 		{
-		  question: "1. asssndasdjasdasndkasdsajbdadksdjbasakdbaajdbkadadkdbjakjbda",
+		  question: "1. In the __________ normal form, a composite attribute is converted to individual attributes.",
 		  options: [
-			"a) Enhancing data redundancy",
-			"b) Organizing data for ease of storage",
-			"c) Minimizing data redundancy and ensuring data integrity",
-			"d) Increasing data duplication",
+			"First",
+			"Second",
+			"Third",
+			"Fourth",
 		  ],
-		  correctAnswer: "c) Minimizing data redundancy and ensuring data integrity",
+		  correctAnswer: "First",
 		  selectedOption: null,
 		},
 		{
-		  question: "What is the name of the current US president?",
-		  options: ["Joe Biden", "Donald Trump", "Barack Obama", "George W. Bush"],
-		  correctAnswer: "Joe Biden",
+		  question: "2.Tables in second normal form (2NF):",
+		  options: ["Eliminate all hidden dependencies", "Eliminate the possibility of a insertion anomalies", "Have a composite key", "Have all non key fields depend on the whole primary key"],
+		  correctAnswer: "Eliminate all hidden dependencies",
 		  selectedOption: null,
 		},
 		{
-		  question: "What is the chemical formula for water?",
-		  options: ["H2O", "H2S", "H2CO3", "H2O2"],
-		  correctAnswer: "H2O",
+		  question: "3. A table on the many side of a one to many or many to many relationship must:",
+		  options: [" Be in Second Normal Form (2NF)", "Be in Third Normal Form (3NF)", "Have a single attribute key", "Have a composite key"],
+		  correctAnswer: "Have a composite key",
 		  selectedOption: null,
 		},
 		{
-		  question: "What is the square root of 16?",
-		  options: ["4", "8", "12", "16"],
-		  correctAnswer: "4",
+		  question: "4.Which-one ofthe following statements about normal forms is FALSE?",
+		  options: ["BCNF is stricter than 3 NF", " Lossless, dependency -preserving decomposition into 3 NF is always possible", "Loss less, dependency – preserving decomposition into BCNF is always possible", "Any relation with two attributes is BCNF"],
+		  correctAnswer: "Loss less, dependency – preserving decomposition into BCNF is always possible",
 		  selectedOption: null,
 		},
 		{
-		  question: "What is the sum of 1 + 1?",
-		  options: ["2", "3", "4", "5"],
-		  correctAnswer: "2",
+		  question: "5. Functional Dependencies are the types of constraints that are based on______",
+		  options: ["Key", "Key revisited", "Superset key", "None of the mentioned"],
+		  correctAnswer: "Key",
 		  selectedOption: null,
 		},
+		{
+			question: "6. Functional Dependencies are the types of constraints that are based on______",
+			options: ["Key", "Key revisited", "Superset key", "None of the mentioned"],
+			correctAnswer: "Key",
+			selectedOption: null,
+		  },
 	  ]);
 	  const [score, setScore] = useState(0);
   
@@ -96,7 +102,7 @@ const Posttest = () => {
               Submit
             </button>
             <div className="result-box">
-              Your score is <span className="score">{score}</span> out of 5
+              Your score is <span className="score">{score}</span> out of 6
             </div>
           </div>
         </div>
