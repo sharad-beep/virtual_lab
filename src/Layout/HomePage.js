@@ -13,7 +13,7 @@ const HomePage = () => {
           </div>
           <div className="col-md-9">
          
-             <h1>hello</h1>
+             <h1> Home Page</h1>
             
           </div>
         </div>

@@ -13,8 +13,10 @@ const Trefnfeed = () => {
 			</div>
 			<div className="col-md-9">
 		   
-			   <h1>Reffernce and Feedback for transcation</h1>
-			  
+			   <h1>Reference </h1>
+			   <iframe width="1000" height="500" src="https://www.youtube.com/embed/sS4gadQw5iM" title="Lecture 12: ACID Properties &amp;&amp; Transactions in DBMS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			 <br></br><br></br>
+			   <iframe width="1000" height="500" src="https://www.youtube.com/embed/HAAhn--tZV8" title="8.2 What is Transaction in DBMS ?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
 		  </div>
 		</div>

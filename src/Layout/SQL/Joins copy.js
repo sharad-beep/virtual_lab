@@ -1,8 +1,6 @@
 import React from 'react'
 import Layout from '../Layout'
 import SqlMenu from './SqlMenu'
-import one from "./sqljoin_.PNG";
-import two from "./sqljoin_2.PNG";
 const Joins = () => {
   return (
 	<div>
@@ -65,37 +63,6 @@ Example:<br></br>
 Consider two tables: "Customers" and "Orders." We'll use these tables to illustrate different types of joins:<br></br>
 <br></br>
 Customers Table:
-<div>
-  <img src={one} alt="Image of SqlJoin_1" />
-</div>
-Orders Table:
-<div>
-  <img src={two} alt="Image of SqlJoin_" />
-</div>
-Example queries:<br></br>
-INNER JOIN: Retrieve orders and customer names for matched records.<br></br>
-SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderAmount<br></br>
-FROM Orders<br></br>
-INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;<br></br>
-<br></br>
-LEFT JOIN: Retrieve all orders and customer names, including unmatched records with NULL customer names.<br></br>
-SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderAmount<br></br>
-FROM Orders<br></br>
-LEFT JOIN Customers ON Orders.CustomerID = Customers.CustomerID;<br></br>
-<br></br>
-FULL JOIN: Retrieve all orders and customer names, including unmatched records from both sides.<br></br>
-SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderAmount<br></br>
-FROM Orders<br></br>
-FULL JOIN Customers ON Orders.CustomerID = Customers.CustomerID;<br></br>
-<br></br>
-SQL joins are essential for combining data from multiple tables, allowing you to create more complex and informative result sets. Understanding the types of joins available and their characteristics is crucial for effective querying in a relational database system.
-<br></br>
-
-
-
-
-
-
 
 				 </p>
 				
